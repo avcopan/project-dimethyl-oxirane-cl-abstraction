@@ -1,0 +1,14 @@
+input
+    run_prefix   = ./run
+    save_prefix  = ./save
+    canonical = True
+end input
+
+pes
+  9: 3
+end pes
+
+els
+  spc init_geom     runlvl=lvl_b2t  inplvl=lvl_b2t 
+  ts find_ts        runlvl=lvl_b2t  inplvl=lvl_b2t
+end els

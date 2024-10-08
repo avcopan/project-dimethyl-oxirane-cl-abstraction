@@ -1,0 +1,12 @@
+Optimizes the transition state between H...Cl (Well C) and O...Cl (Well D).
+
+Currently running here:
+
+/lcrc/project/PACC/copan/amech-dev/work/project-automech-debugging/05_cl_ts_find_b2plyp/ts_c_d_opt
+
+Once complete, this should be added here:
+
+run/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/cefnQKU2UPqGZ/RUN/OPTI
+
+(May need to hide other TS confs to get it to over to the save file system.)
+

@@ -1,0 +1,46 @@
+spc global
+    kickoff = [0.1, False]
+    mc_nsamp = [True, 3, 1, 3, 300, 25]
+    hind_inc = 15.0
+    hbond_cutoffs = [4.61, 1.92]
+    #hbond_cutoffs = [4.92, 1.92]
+    #hbond_cutoffs = [5.3, 1.92]
+    tau_nsamp = [False, 1, 1, 1, 1, 10000]
+end spc
+
+spc ts_3_1_0
+   ts_search = pst
+   kt_pst = 4.0e-12
+   temp_pst = 300.0
+   n_pst = 6.0
+end spc
+
+spc ts_3_2_0
+   ts_search = pst
+   kt_pst = 4.0e-12
+   temp_pst = 300.0
+   n_pst = 6.0
+end spc
+
+spc ts_3_37_0
+   ts_search = pst
+   kt_pst = 4.0e-12
+   temp_pst = 300.0
+   n_pst = 6.0
+end spc
+
+spc ts_3_38_0
+   ts_search = pst
+   kt_pst = 4.0e-12
+   temp_pst = 300.0
+   n_pst = 6.0
+end spc
+
+spc ts_1_2_0
+   conf_id = [rwLf1BukoS86Q, cb81wiG1ucZEE]
+end spc
+
+spc ts_1_5_0
+   conf_id = [rXHSiLbzWoSqG, cvPZbZ1spvnDf]
+end spc
+

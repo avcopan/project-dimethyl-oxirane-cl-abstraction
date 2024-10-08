@@ -1,0 +1,5 @@
+Running a full optimization after having relaxed the structure (constrained
+optimization) with r(H--Cl) fixed to its equilibrium bond distance.
+
+If the reaction is truly barrierless, this should optimize down directly from R + HCl to
+the RH...Cl van der Waals complex, with no barrier in between.
