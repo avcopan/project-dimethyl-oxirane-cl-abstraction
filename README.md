@@ -14,13 +14,16 @@ We have the following at B2PLYP-D3/cc-pVTZ:
 
 These we have at wB97X-D/6-31G\*:
  - Well C (RH...Cl)     *(Nick)*
- - Well E (RO...Cl)
+ - Well E (O...Cl)
  - Saddle point C -> E + reaction path C -> E *(Nick)*
 
 ### Running
 
- - *[Reaction path A->B]*
+ - Well C (RH...Cl)
+ - Well D (CC...Cl)
+ - Well E (O...Cl)
  - Saddle point C->D (running outside of filesystem)
+ - *[Reaction path A->B]*
  - *[Saddle point C->E (running outside of filesystem)]*
 
 (Italics are planned, not yet submitted...)

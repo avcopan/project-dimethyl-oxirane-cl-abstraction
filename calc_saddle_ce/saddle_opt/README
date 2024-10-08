@@ -1,0 +1,10 @@
+Optimizes the transition state between H...Cl (Well C) and O...Cl (Well E).
+
+Copied wB97X-D/6-31G* starting structure from here:
+/lcrc/project/PACC/copan/amech-dev/work/project-automech-debugging/04_vtst_low_with_sne_changes/save/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/u-ulpJU/TS/00/CONFS/rGoi5SjNmOHBG/cKMdqW-Wlqoa0
+
+Once complete, this should be added here as a new conformer:
+
+run/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/<CID>
+
+(May need to hide other TS confs to get it to over to the save file system.)
