@@ -1113,3 +1113,96 @@
  Actual    scratch disk usage=  1208476728 words.
  JobTyp=3 Pass  1:  I=  11 to  28 NPSUse=  6 ParTrn=T ParDer=T DoDerP=T.
  (rs|ai) integrals will be sorted in core.
+ Spin components of T(2) and E(2):
+     alpha-alpha T2 =       0.6584315305D-01 E2=     -0.4445954246D-01
+     alpha-beta  T2 =       0.3700934024D+00 E2=     -0.2699224333D+00
+     beta-beta   T2 =       0.5932557801D-01 E2=     -0.4019144164D-01
+ The integrals were generated   2 times.
+ (S**2,0)=  0.75513D+00           (S**2,1)=  0.74654D+00
+ Scaling Projection term by:   0.270000
+ E(PUHF)=      -0.69199786133D+03        E(PMP2)=      -0.69234987517D+03
+ E2(B2PLYPD3) =    -0.3545734174D+00 E(B2PLYPD3) =    -0.69234975651792D+03
+ Leave Link  906 at Tue Oct  8 13:22:52 2024, MaxMem=  2684354560 cpu:           13697.1 elap:            2290.2
+ (Enter /gpfs/fs1/soft/bebop/software/custom-built/gaussian/16-c.02/g16/l1101.exe)
+ Using compressed Sx but separate Hx and Fx, NAtomX=    14.
+ Will process     15 centers per pass.
+ R6Disp: Adding Grimme-D3(BJ) dispersion energy 1st derivatives to the gradient.
+ Leave Link 1101 at Tue Oct  8 13:22:52 2024, MaxMem=  2684354560 cpu:               1.2 elap:               0.2
+ (Enter /gpfs/fs1/soft/bebop/software/custom-built/gaussian/16-c.02/g16/l1102.exe)
+ Leave Link 1102 at Tue Oct  8 13:22:52 2024, MaxMem=  2684354560 cpu:               0.1 elap:               0.0
+ (Enter /gpfs/fs1/soft/bebop/software/custom-built/gaussian/16-c.02/g16/l1110.exe)
+ Forming Gx(P) for the SCF density, NAtomX=    14.
+ Integral derivatives from FoFJK, PRISM(SPDF).
+ Do as many integral derivatives as possible in FoFJK.
+ G2DrvN: MDV=    2684352982.
+ G2DrvN: will do    15 centers at a time, making    1 passes.
+ Calling FoFCou, ICntrl=  3107 FMM=F I1Cent=   0 AccDes= 0.00D+00.
+ FoFJK:  IHMeth= 1 ICntrl=    3107 DoSepK=F KAlg= 0 I1Cent=           0 FoldK=F
+ IRaf=         0 NMat=       1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0 IDoP0=0 IntGTp=1.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=      3107 IOpCl=  1 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ End of G2Drv F.D. properties file   721 does not exist.
+ End of G2Drv F.D. properties file   722 does not exist.
+ End of G2Drv F.D. properties file   788 does not exist.
+ Leave Link 1110 at Tue Oct  8 13:24:24 2024, MaxMem=  2684354560 cpu:             550.8 elap:              92.0
+ (Enter /gpfs/fs1/soft/bebop/software/custom-built/gaussian/16-c.02/g16/l1002.exe)
+ Minotr:  UHF open shell wavefunction.
+          IDoAtm=11111111111111
+          Frozen-core window.
+          Direct CPHF calculation.
+          Differentiating once with respect to electric field.
+                with respect to dipole field.
+          Differentiating once with respect to nuclear coordinates.
+          Requested convergence is 1.0D-08 RMS, and 1.0D-07 maximum.
+          Secondary convergence is 1.0D-12 RMS, and 1.0D-12 maximum.
+          NewPWx=T KeepS1=T KeepF1=T KeepIn=T MapXYZ=F SortEE=F KeepMc=T.
+         4159 words used for storage of precomputed grid.
+ Keep R1 and R2 ints in memory in canonical form, NReq=1950980023.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=  43956 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Two-electron integral symmetry not used.
+          MDV=    2684354560 using IRadAn=       1.
+          Solving linear equations simultaneously, MaxMat=       0.
+          There are    45 degrees of freedom in the 1st order CPHF.  IDoFFX=6 NUNeed=    45.
+     42 vectors produced by pass  0 Test12= 3.39D-14 2.22D-09 XBig12= 5.58D+01 1.42D+00.
+ AX will form    42 AO Fock derivatives at one time.
+     42 vectors produced by pass  1 Test12= 3.39D-14 2.22D-09 XBig12= 3.34D+00 3.02D-01.
+     42 vectors produced by pass  2 Test12= 3.39D-14 2.22D-09 XBig12= 9.50D-02 1.05D-01.
+     42 vectors produced by pass  3 Test12= 3.39D-14 2.22D-09 XBig12= 2.95D-03 1.86D-02.
+     42 vectors produced by pass  4 Test12= 3.39D-14 2.22D-09 XBig12= 3.49D-05 1.19D-03.
+     42 vectors produced by pass  5 Test12= 3.39D-14 2.22D-09 XBig12= 2.72D-07 4.70D-05.
+     31 vectors produced by pass  6 Test12= 3.39D-14 2.22D-09 XBig12= 2.05D-09 8.71D-06.
+     15 vectors produced by pass  7 Test12= 3.39D-14 2.22D-09 XBig12= 2.02D-11 5.92D-07.
+      3 vectors produced by pass  8 Test12= 3.39D-14 2.22D-09 XBig12= 1.91D-13 3.72D-08.
+      3 vectors produced by pass  9 Test12= 3.39D-14 2.22D-09 XBig12= 2.29D-15 4.01D-09.
+ InvSVY:  IOpt=1 It=  1 EMax= 3.89D-15
+ Solved reduced A of dimension   304 with    45 vectors.
+ FullF1:  Do perturbations      1 to      45.
+ Saving first derivative matrices.
+ End of Minotr F.D. properties file   721 does not exist.
+ End of Minotr F.D. properties file   722 does not exist.
+ End of Minotr F.D. properties file   788 does not exist.
+ Leave Link 1002 at Tue Oct  8 13:27:30 2024, MaxMem=  2684354560 cpu:            1106.6 elap:             185.3
+ (Enter /gpfs/fs1/soft/bebop/software/custom-built/gaussian/16-c.02/g16/l811.exe)
+ MDV=  2684354560.
+ DoSCS=T DFT=T ScalE2(SS,OS)=  0.270000  0.270000
+ Form MO integral derivatives with frozen-active canonical formalism.
+ MOERI=1 MOERIx=1 NAtoms=    14 NAtomX=    14.
+ Discarding MO integrals.
+ MO basis two electron integral derivatives will not be stored on disk.
+ IAlg= 3 DoFC=T DoPWx=T Debug=F.
+ Frozen-core window:  NFC=  10 NFV=   0.
+ Reordered first order wavefunction length =    346421397
+ In DefCFB: NBatch=  1 ICI= 29 ICA=268 LFMax= 54
+            Large arrays: LIAPS=  6029517632 LIARS=  1417333008 words.
+ In StABat: MaxSiz= 39 MinSiz= 30 NAtomB= 10
+ DoIAMN: NPSUse=  6.
+ In DefCFB: NBatch=  1 ICI= 29 ICA=268 LFMax= 54
+            Large arrays: LIAPS=  6029517632 LIARS=  1417333008 words.
+ In StABat: MaxSiz= 39 MinSiz= 30 NAtomB= 10

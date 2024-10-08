@@ -9,6 +9,9 @@ pes
 end pes
 
 els
-  spc init_geom     runlvl=lvl_b2t  inplvl=lvl_b2t 
-  ts find_ts        runlvl=lvl_b2t  inplvl=lvl_b2t
+  # spc init_geom     runlvl=lvl_b2t  inplvl=lvl_b2t 
+  # ts find_ts        runlvl=lvl_b2t  inplvl=lvl_b2t
+  ts rpath_scan     runlvl=lvl_b2t  inplvl=lvl_b2t rxncoord=irc
+  # # skipping Hessian calculation for now:
+  # ts rpath_hess     runlvl=lvl_b2t  inplvl=lvl_b2t rxncoord=irc
 end els

@@ -23,15 +23,31 @@ These we have at wB97X-D/6-31G\*:
  - Well D (CC...Cl)
  - Well E (O...Cl)
  - Saddle point C->D (running outside of filesystem)
- - *[Reaction path A->B]*
- - *[Saddle point C->E (running outside of filesystem)]*
+ - Saddle point C->E (running outside of filesystem)
+ - Reaction path A->B
 
 (Italics are planned, not yet submitted...)
 
 ### Missing
 
-To fill in a complete PES, we would need to run the following at a higher level of
-theory:
- - Well C (RH...Cl)
- - Well E (RO...Cl)
- - Saddle point C -> E
+ - Well A (O...HCl)
+
+### Paths
+
+Project: /lcrc/project/PACC/copan/amech-dev/work/project-dimethyl-oxirane-cl-abstraction
+
+Wells:
+ - Well B: calc_well_b/full_opt
+ - Well C: calc_well_c/full_opt
+ - Well D: calc_well_d/full_opt
+ - Well E: calc_well_e/full_opt
+
+Saddle points:
+ - Saddle point C->D: /lcrc/project/PACC/copan/amech-dev/work/project-automech-debugging/05_cl_ts_find_b2plyp/ts_c_d_opt
+ - Saddle point C->E: calc_saddle_ce/saddle_opt
+ - Saddle A->B: save/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/cVHOw6ZMB1yA8
+    - Reaction path A->B: run/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/cVHOw6ZMB1yA8/Z/00/SCANS/IRC/
+ - Saddle B->C: save/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/cp1Qjk9Plk2sE
+    - Hidden: save/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/cp1Qjk9Plk2sE
+ - Saddle C->D: calc_saddle_cd/saddle_opt
+ - Saddle C->E: calc_saddle_ce/saddle_opt
