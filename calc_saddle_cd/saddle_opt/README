@@ -1,10 +1,10 @@
 Optimizes the transition state between H...Cl (Well C) and C-C...Cl (Well D).
 
-Currently running here:
+Source:
 
-/lcrc/project/PACC/copan/amech-dev/work/project-automech-debugging/05_cl_ts_find_b2plyp/ts_c_d_opt
+save/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/Z/00/SCANS/R14/4.57
 
-Once complete, this should be added here:
+Once complete, this could be added here:
 
 run/RXN/C4H7O.ClH/LDWMUHCKAHUBHY/0_0/2_1/DFWYDOINSA-N/C4H8O.Cl/YVAVETQEMWSGBK/0_0/1_2/HKTIBRIUSA-N/2/hJUn9NU/TS/00/CONFS/rp2Q6AKbmzV_I/cefnQKU2UPqGZ/RUN/OPTI
 
