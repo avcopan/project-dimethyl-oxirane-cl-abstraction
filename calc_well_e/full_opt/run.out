@@ -4232,3 +4232,40 @@
  IMap=   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20
  IMap=  21  22  23  24  25  26  27  28
  JobTyp=3 Pass  1:  I=  11 to  28 NPSUse=  6 ParTrn=T ParDer=T DoDerP=T.
+ Spin components of T(2) and E(2):
+     alpha-alpha T2 =       0.6580988513D-01 E2=     -0.4458959913D-01
+     alpha-beta  T2 =       0.3779175765D+00 E2=     -0.2724139191D+00
+     beta-beta   T2 =       0.6490675500D-01 E2=     -0.4191621888D-01
+ The integrals were generated   2 times.
+ (S**2,0)=  0.75623D+00           (S**2,1)=  0.74578D+00
+ Scaling Projection term by:   0.270000
+ E(PUHF)=      -0.69200512571D+03        E(PMP2)=      -0.69236120508D+03
+ E2(B2PLYPD3) =    -0.3589197371D+00 E(B2PLYPD3) =    -0.69236107413109D+03
+ Leave Link  906 at Fri Oct 11 13:36:37 2024, MaxMem=  2684354560 cpu:             787.7 elap:             131.6
+ (Enter /gpfs/fs1/soft/bebop/software/custom-built/gaussian/16-c.02/g16/l1002.exe)
+ Minotr:  UHF open shell wavefunction.
+          Computing MP2/KS-MP2 derivatives.
+          Using Z-Vector for PSCF gradient.
+          Skipping F1 and S1 gradient terms here.
+          IDoAtm=11111111111111
+          Frozen-core window.
+          Direct CPHF calculation.
+          Differentiating once with respect to electric field.
+                with respect to dipole field.
+          Differentiating once with respect to nuclear coordinates.
+          Requested convergence is 1.0D-10 RMS, and 1.0D-09 maximum.
+          NewPWx=F KeepS1=T KeepF1=T KeepIn=T MapXYZ=F SortEE=F KeepMc=T.
+ Keep R1 and R2 ints in memory in canonical form, NReq=1950975864.
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=  43956 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Two-electron integral symmetry not used.
+          MDV=    2684354560 using IRadAn=       5.
+          Solving linear equations separately, MaxMat=       0.
+          There are     1 degrees of freedom in the 1st order CPHF.  IDoFFX=0 NUNeed=     1.
+ LinEq1:  Iter=  0 NonCon=     1 RMS=8.74D-04 Max=7.73D-02 NDo=     1
+ AX will form     1 AO Fock derivatives at one time.
+ LinEq1:  Iter=  1 NonCon=     1 RMS=3.38D-04 Max=9.65D-03 NDo=     1
+ LinEq1:  Iter=  2 NonCon=     1 RMS=2.30D-04 Max=1.11D-02 NDo=     1
