@@ -8,7 +8,8 @@ We are mapping the following PES:
 
 We have the following at B2PLYP-D3/cc-pVTZ:
  - The reactants (R)
- - The products (P) 
+ - The products (P)
+ - Well A (O...HCl) 
  - Well B (R...HCl) 
  - Well C (RH...Cl)
  - Well D (CC...Cl)
@@ -17,11 +18,6 @@ We have the following at B2PLYP-D3/cc-pVTZ:
  - Saddle point B->C
  - Saddle point C->D
  - Saddle point C->E
-
-
-### Running
-
- - Well A (O...HCl)
  - Reaction path A->B
 
 
