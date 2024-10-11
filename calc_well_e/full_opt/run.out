@@ -4229,3 +4229,6 @@
  IMap=   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20
  IMap=  21  22  23  24  25  26  27  28  29
  JobTyp=2 Pass  1:  I=  11 to  29 NPSUse=  6 ParTrn=T ParDer=T DoDerP=T.
+ IMap=   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20
+ IMap=  21  22  23  24  25  26  27  28
+ JobTyp=3 Pass  1:  I=  11 to  28 NPSUse=  6 ParTrn=T ParDer=T DoDerP=T.
