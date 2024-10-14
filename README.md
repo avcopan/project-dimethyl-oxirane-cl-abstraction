@@ -1,7 +1,6 @@
 ## Context
 
-We are mapping the following PES:
-<img src=".github/20241008_105742.jpg" width="1000">
+<img src=".github/20241011_145513.jpg" width="1000">
 
 
 ### Complete
